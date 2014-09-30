@@ -16,7 +16,11 @@ body {
 h1, h2, h3 {
     @include headline-font;
     line-height: 1;
-    color: red
+    color: #ef6d6d
+}
+
+h1 {
+    color: white;
 }
 
 img {
@@ -101,7 +105,7 @@ footer[role="contentinfo"] small {
 
 body {
     background:#fff;
-    background-repeat: repeat-y;
+    background-repeat: none;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -118,3 +122,6 @@ body {
     background-position: left;
 }
 
+body {
+    background-color: $background-color;
+}
