@@ -20,7 +20,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    color: white;
+    color: #453535;
 }
 
 img {
@@ -104,24 +104,44 @@ footer[role="contentinfo"] small {
 }
 
 body {
-    background:#fff;
+    background:#f28b8b;
     background-repeat: none;
     background-attachment: fixed;
     background-size: cover;
 }
 
 html {
-    background-image: url(../img/bwtrees.jpg);
+    background-image: url(../img/dog.jpg);
+    background-attachment: fixed;
     background-repeat: repeat-y;
     background-position: right;
 }
 
-body {
-    background-image: url(../img/bwtrees.jpg);
+html {
+    background-image: url(../img/dog.jpg);
+    background-attachment: fixed;
     background-repeat: repeat-y;
     background-position: left;
 }
 
 body {
     background-color: $background-color;
+}
+
+a {
+    color: $color;
+    @include headline-font;
+    transition: color 350ms linear;
+}
+
+a:hover {
+    color: lighten($color, 40%);
+    transition: color 350ms linear;
+}
+
+header[role="banner"] h1 {
+    @include fontSize(90px);
+    text-align: center;
+    line-height: 1;
+    margin: -28px 0 0 0;
 }
