@@ -16,43 +16,44 @@ Globals
 }
 
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Cabin';
   font-style: normal;
   font-weight: 400;
-  src: local('Raleway'), url(http://fonts.gstatic.com/s/raleway/v9/cIFypx4yrWPDz3zOxk7hIQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+  src: local('Cabin Regular'), local('Cabin-Regular'), url(http://fonts.gstatic.com/s/cabin/v7/kJXt72Gt1LyFMZcEKAAvlKCWcynf_cDxXwCLxiixG1c.woff) format('woff');
 }
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Cabin';
   font-style: normal;
   font-weight: 700;
-  src: local('Raleway Bold'), local('Raleway-Bold'), url(http://fonts.gstatic.com/s/raleway/v9/JbtMzqLaYbbbCL9X6EvaI73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+  src: local('Cabin Bold'), local('Cabin-Bold'), url(http://fonts.gstatic.com/s/cabin/v7/haOjnueK8Or1ztuuRtr8dnYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
 }
 @font-face {
-  font-family: 'Special Elite';
+  font-family: 'Walter Turncoat';
   font-style: normal;
   font-weight: 400;
-  src: local('Special Elite'), local('SpecialElite-Regular'), url(http://fonts.gstatic.com/s/specialelite/v6/9-wW4zu3WNoD5Fjka35Jm4kaQb-UsZVONjobs91YQtw.woff) format('woff');
+  src: local('Walter Turncoat'), local('WalterTurncoat'), url(http://fonts.gstatic.com/s/walterturncoat/v6/sG9su5g4GXy1KP73cU3hvUg5BZJjJQhkX_0Ep7_Wjf8.woff) format('woff');
 }
+
 
 
 @mixin body-font-regular {
-    font-family: 'Raleway', georgia, serif;
+    font-family: 'Cabin', "Georgia", sans-serif;
     font-style: normal;
     font-weight: 400;
 }
 
 @mixin body-font-bold {
-    font-family: 'Raleway', georgia, serif;
+    font-family: 'Cabin', "Georgia", sans-serif;
     font-style: normal;
     font-weight: 700;
 }
 
 @mixin headline-font {
-    font-family: 'Special Elite', helvetica, verdana, sans-serif;
+    font-family: 'Walter Turncoat', helvetica, serif;
     font-style: normal;
     font-weight: 400;
 }
 
-$color: white;
-$color-title: #c45353;
+$color: #79afe5;
+$color-title: #79afe5;
 $background-color: #e6e3e3;

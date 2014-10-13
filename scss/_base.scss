@@ -16,37 +16,41 @@ body {
 h1, h2, h3 {
     @include headline-font;
     line-height: 1;
-    color: #ef6d6d
+    color: #79afe5
 }
 
 h1 {
-    color: #453535;
+    color: #524d4d;
 }
 
 img {
     height: auto;
     max-width: 100%;
+    position: center;
 }
 
 nav {
-    background-color: black;
+    background-color: #4d4d4d;
     border: 1px solid $background-color;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-top: none;
     padding: 4px 5px 6px 5px;
     position: fixed;
+    text-decoration: none;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 nav ul li {
     display: inline-block;
     margin: 0 6px;
+    text-decoration: none;
 }
 
 nav, main, footer[role="contentinfo"] {
@@ -80,9 +84,6 @@ article div {
     line-height: 1;
 }
 
-//main footer {
-//article footer {
-//main article footer {
 footer[role="complementary"] {
     border-bottom: 1px #989898 solid;
     border-top: 1px #989898 solid;
@@ -111,14 +112,14 @@ body {
 }
 
 html {
-    background-image: url(../img/dog.jpg);
+    background-image: url(../img/ocean.jpg);
     background-attachment: fixed;
     background-repeat: repeat-y;
     background-position: right;
 }
 
 html {
-    background-image: url(../img/dog.jpg);
+    background-image: url(../img/ocean.jpg);
     background-attachment: fixed;
     background-repeat: repeat-y;
     background-position: left;
@@ -142,6 +143,7 @@ a:hover {
 header[role="banner"] h1 {
     @include fontSize(90px);
     text-align: center;
+    image-orientation: center;
     line-height: 1;
     margin: -28px 0 0 0;
 }
